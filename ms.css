@@ -1,0 +1,50 @@
+body{
+    background-color: rgba(243, 227, 233, 0.041);
+    
+}
+.newest-phones .phones-section {
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 5rem;
+    display: flex;
+    flex-direction: column;
+  }
+   .phones-section h4 {
+    color: #6e0aef;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+  }
+  .phones-section .phones {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: flex-start;
+  }
+  .phones .phone {
+    margin: 2rem 0;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+   .phone img {
+    margin-bottom: 1rem;
+  }
+   .phone img:hover {
+    scale: 1.1;
+    cursor: pointer;
+  }
+  .phone h3 {
+    font-size: 1.6rem;
+  }
+  
+  .phones-section button {
+    width: 15rem;
+    margin-bottom: 1rem;
+    align-self: center;
+  }
+  .btn{
+    width: 15rem;
+    margin-bottom: 1rem;
+    align-self: center;
+
+  }
